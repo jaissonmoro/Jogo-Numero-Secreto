@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+:root{
+    --font-family: 'Tilt Neon', cursive;
+    --bg-color: #191825;
+    --primary-color: #3795BD;
+
+}
+
+body{
+    background-color: var(--bg-color);
+    color: var(--primary-color);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    font-family: var(--font-family);
+}
+
+h1{
+    font-size: 5em;
+}
+
+h2{
+    font-size: 4em;
+    color: gold;
+}
+
+h3{
+    font-size: 3em;
+    margin-top: 2em;
+}
+
+.mensagem{
+    font-size: 2em;
+    margin-top: 1.7em;
+}
+
+.box{
+    border: 2px solid var(--primary-color);
+    border-radius: 0.2em;
+    display: inline-block;
+    font-size: 2.5em;
+    padding: 10px;
+    margin: 20px;
+}
+
+.acertou{
+    font-size: 4em;
+    color: gold;
+}
+
+.dica{
+    font-size: 1.3em;
+}
+
+.btn-jogar{
+    padding: 20px 30px;
+    border: 0;
+    background-color:darkblue;
+    border-radius: 5px;
+    margin-top: 5em;
+    font-size: 1.5em;
+    color:rgb(255, 16, 235)
+}
+
+#ValorInvalido{
+    font-size: 2.3em;
+    margin-top: 25px;
+    color: brown;
+}
+
+#ValorInvalidoMens{
+    font-size: 1.5em;
+    margin-top: 10px;
+    color: brown;
+}
+
+@media (max-width: 768px) {
+    h1{
+        font-size: 2.5em;
+    }
+
+    h2{
+        font-size: 2.5em;
+        color: gold;
+    }
+
+    h3{
+        font-size: 1.9em;
+        margin-top: 1em;
+    }
+
+    .box{
+        border: 2px solid var(--primary-color);
+        border-radius: 0.2em;
+        display: inline-block;
+        font-size: 2em;
+        padding: 10px;
+        margin: 20px;
+    }
+
+    .acertou{
+        font-size: 3.5em;
+        color: gold;
+    }
+
+    .dica{
+        font-size: 1em;
+        margin-top: 1em;
+    }
+
+    .btn-jogar{
+        padding: 0.5em 1em;
+        border: 0;
+        background-color:darkblue;
+        border-radius: 20px;
+        margin-top: 3em;
+        font-size: 2.2em;
+        color:rgb(255, 16, 235)
+    }
+}
+
+@media (max-width: 915px) {
+    h1{
+        font-size: 3.5em;
+    }
+
+    h2{
+        font-size: 2.5em;
+        color: gold;
+    }
+
+    h3{
+        font-size: 2.5em;
+        margin-top: 2em;
+    }
+
+    .box{
+        border: 2px solid var(--primary-color);
+        border-radius: 0.2em;
+        display: inline-block;
+        font-size: 3em;
+        padding: 10px;
+        margin: 20px;
+    }
+
+    .acertou{
+        font-size: 3.5em;
+        color: gold;
+    }
+
+    .dica{
+        font-size: 1.3em;
+        margin-top: 1em;
+    }
+}
